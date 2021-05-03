@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+}
+
+
+body{
+  background-image: url("https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+}
+
+
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+}
+
+
+a:link, a:visited {
+  width: 100%;
+  background-color: #edea39;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #f5f184;
+  color: #57564a;
+}
+
+div.cim{
+	font-family: Rockwell;
+	position: absolute;
+    left: 25%;
+	top: 5%;
+	text-decoration: underline;
+}
+
+
+div.menu{
+	 position: absolute;
+     left: 80%;
+	 top: 15%;
+	 width: 13%;
+}
