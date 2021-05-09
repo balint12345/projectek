@@ -1,73 +1,117 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="layout.css">
-<title>Portfólió</title>
-</head>
-<body>
-
-<div class="cim">
-<h1>Projektek</h1>
-</div>
-
-<div class="munkaim">
-
-<h3>
-Arduino
-</h3>
-
-<p>
-A legtöbb projektem Arduinoval kapcsolatos, eleinte még csak egyre növekvő számú ledet villogtattam különböző logika szerint, 
-később vezéreltem már szervo és léptető motorokat, sikerült egy Bluetooth modult csatlakoztatnom a mikrovezérlőhőz, aminek 
-segítségével már egy másik eszközről vezeték nélkül is tudtam parancsokat adni. Megtanultam, hogy minden elektronikai alkatrésznek vagy egy Datasheetje, ami alapján lehet velük dolgozni. 
-Az első projektem egy telefonról vezérelhető szervo volt, ami egy ketrec nyitóként funkcionált. 
-A mostani projektem egy telefon vezérelte kisautó lesz, amihez felhasználom az idáig tanultakat (motorok vezérlése H híddal, bluetooth modulon keresztül történő kommunikáció).
-</p>
-
- 
-<img src="https://github.com/balint12345/projectek/blob/main/arduino.png?raw=true" id="arduinokepek1">
-
-<img src="https://github.com/balint12345/projectek/blob/main/arduinoo.png?raw=true" id="arduinokepek2">
+body, html {
+  height: 100%;
+}
 
 
-<h3>
-Programozás
-</h3>
-<p>
-Középiskolában egy nagyon jó informatika tanárom volt, neki köszönhetően szívesen fejlesztem magam ilyen területen, lévén hasznosítani tudom a munkám során és érdekelnek.
- A fentebb említett ketrecnyitóhoz az appot én magam fejlesztettem az Android Studio segítségével, de szívesen írok kódokat C alapú nyelven az Arduinos munkáimhoz. A későbbiekben Wolframmal, Matlabbal, Pythonnal és egyéb 
- Data Engineering témájú nyelvekkel foglalkoznék szívesen.
-</p>
-
-<img src="https://github.com/balint12345/projectek/blob/main/python.png?raw=true" id="pythonkep">
-<img src="https://github.com/balint12345/projectek/blob/main/java.png?raw=true" id="javakep">
-
-<h3>
-Computer Aided Engineering
-</h3>
-<p>
-A mérnöki szoftverek a másik nagy területe az informatikának ami érdekel. Egyszerűen lenyűgőz, hogy programok segítségével meg lehet könnyíteni a mérnökök munkáját. Például önszorgalomból elkezdtem foglalkozni az Autodesk Inventor 
-Stress Simulation részével, az órákon elkészített modelleket rendre lemodellezem valamilyen terheléssel.
-</p>
-
-<img src="https://github.com/balint12345/projectek/blob/main/kiskacsa.png?raw=true" id="inventorkep">
-<img src="https://github.com/balint12345/projectek/blob/main/cad.png?raw=true" id="autocadkep">
-<p> </p>
+body{
+  background-image: url("https://raw.githubusercontent.com/balint12345/portfolio/main/docs/pexels-life-of-pix-2391.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 101%;
+  background-attachment: fixed;
+}
 
 
-</div>
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+}
 
 
+a:link, a:visited {
+  width: 100%;
+  background-color: #edea39;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
- <div class="menu">
- <table>
-   <tr><th><a href="https://balint12345.github.io/portfolio/" target="_self">Bemutatkozás</a></th></tr>
-   <tr><th><a href="https://drive.google.com/file/d/11AEfJ_R5CJKMTfJzULHnbwhX_uCfQ3r1/view?usp=sharing" target="_blank">Önéletrajz</a></th></tr>
-   <tr><th><a href="https://balint12345.github.io/projectek/" target="_self">Projektek</a></th></tr>
-   <tr><th><a href="https://balint12345.github.io/gepeszeti/" target="_self">Gépészeti informatika házifeladat videó</a></th></tr>
-   <tr><th><a href="https://balint12345.github.io/leiras/" target="_self">Weboldal fejlesztés leírása</a></th></tr>
-</table>
-</div>
+a:hover, a:active {
+  background-color: #f5f184;
+  color: #57564a;
+}
 
-<body>
-</html>
+div.cim{
+	font-family: Rockwell;
+	position: absolute;
+    left: 25%;
+	top: 5%;
+	text-decoration: underline;
+}
+
+
+div.menu{
+	 position: absolute;
+         left: 80%;
+	 top: 15%;
+	 width: 13%;
+}
+
+div.munkaim{
+	position: absolute;
+	top: 16%;
+	left: 20%;
+	width:55%;
+	font-family: Rockwell;
+	text-align: justify;
+        text-justify: inter-word;
+	background-color: #f2eb96;
+	border: 2px solid #fcba03;
+	border-radius: 25px;
+}
+
+p{
+	position: relative;
+	left: 1%;
+	width:98%;
+}
+
+h3{
+	font-weight: bold;
+	position:relative;
+	left:2%;
+}
+
+img{
+	max-width:40%;
+	align: center;
+	margin: auto;
+}
+
+#arduinokepek1{
+	position: relative;
+	left:10%;
+	width:30%;
+}
+
+#arduinokepek2{
+	position: relative;
+	left:30%;
+	width:30%;
+}
+
+#pythonkep{
+	position:relative;
+	left:5%;
+	width:100%;
+}
+
+#javakep{
+	position:relative;
+	width:25%;
+	left:20%;
+}
+
+#inventorkep{
+	position:relative;
+	width:100%;
+	left:5%;
+}
+
+#autocadkep{
+	position:relative;
+	left:25%;
+	width:20%;
+}
