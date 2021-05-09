@@ -4,9 +4,10 @@ body, html {
 
 
 body{
-  background-image: url("https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://raw.githubusercontent.com/balint12345/portfolio/main/docs/pexels-life-of-pix-2391.jpg");
   background-repeat: no-repeat;
   background-size: 100% 101%;
+  background-attachment: fixed;
 }
 
 
@@ -43,7 +44,25 @@ div.cim{
 
 div.menu{
 	 position: absolute;
-     left: 80%;
+         left: 80%;
 	 top: 15%;
 	 width: 13%;
+}
+
+div.munkaim{
+	position: absolute;
+	top: 16%;
+	left: 15%;
+	width:55%;
+	font-family: Rockwell;
+}
+
+h3{
+	font-weight: bold;
+}
+
+img{
+	max-width:40%;
+	align: center;
+	margin: auto;
 }
