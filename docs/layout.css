@@ -57,6 +57,9 @@ div.munkaim{
 	font-family: Rockwell;
 	text-align: justify;
         text-justify: inter-word;
+	background-color: #f2eb96;
+	border: 2px solid #fcba03;
+	border-radius: 25px;
 }
 
 h3{
